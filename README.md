@@ -1,21 +1,35 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+#SCREENSHOTS
+![Alt text](https://bytebucket.org/shiken/rentaccount/raw/d7042593c7c69ec831d9a6f66659fdf57de8c0cd/screenshots/Capture.JPG?token=0cc471c8c565603c4f5f17a57960a5c52d7985f0)
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+#Instructions 
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+edit your hosts file in windows/systems32/drivers/etc/hosts and add 127.0.0.1 [your name url ex:babangtamvvan.flash.backend.id]
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+edit your vhosts C:\xampp\apache\conf\extra\httpd-vhosts.conf
+ and edit like this
+
+```
+ <VirtualHost *:80>
+   ServerName babangtamvvan.flash.backend.id
+   DocumentRoot "E:/xampp/htdocs/erp/kim/web/"
+
+   <Directory "E:/xampp/htdocs/erp/kim/web/">
+    # use mod_rewrite for pretty URL support
+    RewriteEngine on
+    # If a directory or a file exists, use the request directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Otherwise forward the request to index.php
+    RewriteRule . index.php
+
+    # use index.php as index file
+    DirectoryIndex index.php
+
+    # ...other settings...
+   </Directory>
+</VirtualHost>
+```
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
