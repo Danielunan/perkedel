@@ -1,6 +1,13 @@
 
 #SCREENSHOTS
-![Alt text](https://bytebucket.org/shiken/rentaccount/raw/d7042593c7c69ec831d9a6f66659fdf57de8c0cd/screenshots/Capture.JPG?token=0cc471c8c565603c4f5f17a57960a5c52d7985f0)
+![Alt text](https://bytebucket.org/shiken/crud/raw/201221a28eebd67dd58573d36e9f0e5698e7a438/screenshots%20crud/Capture.PNG?token=50834410f0f70f0e19fb1e8f0b9f89a1ea8db9df)
+
+![Alt text](https://bytebucket.org/shiken/crud/raw/201221a28eebd67dd58573d36e9f0e5698e7a438/screenshots%20crud/4.PNG?token=e845295f2276a569be5e3f2f61ff76db9ec60163)
+
+![Alt text](https://bytebucket.org/shiken/crud/raw/201221a28eebd67dd58573d36e9f0e5698e7a438/screenshots%20crud/3.PNG?token=8001f4ad91055188cc75f5914f1feda9022719cd)
+
+![Alt text](https://bytebucket.org/shiken/crud/raw/201221a28eebd67dd58573d36e9f0e5698e7a438/screenshots%20crud/3.PNG?token=8001f4ad91055188cc75f5914f1feda9022719cd)
+
 
 #Instructions 
 
