@@ -6,7 +6,8 @@ use yii;
 
 class Customer extends \yii\db\ActiveRecord
 {
-    public static function collectionName() #static itu sesuatu yang tak bisa diubah
+    #static itu sesuatu yang tak bisa diubah
+    public static function collectionName() 
     {
         return ['bookstore', 'customer'];
     }

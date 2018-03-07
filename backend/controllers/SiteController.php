@@ -12,9 +12,7 @@ use common\models\LoginForm;
  */
 class SiteController extends Controller
 {
-    /**
-     * {@inheritdoc}
-     */
+    #mengendalikan akses di dalam aplikasi
     public function behaviors()
     {
         return [
