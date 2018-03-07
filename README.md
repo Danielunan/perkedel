@@ -15,7 +15,7 @@ edit your hosts file in windows/systems32/drivers/etc/hosts and add 127.0.0.1 [y
 
 edit your vhosts C:\xampp\apache\conf\extra\httpd-vhosts.conf
  and edit like this
-
+ 
 ```
  <VirtualHost *:80>
    ServerName babangtamvvan.flash.backend.id
@@ -37,6 +37,7 @@ edit your vhosts C:\xampp\apache\conf\extra\httpd-vhosts.conf
    </Directory>
 </VirtualHost>
 ```
+and restart your xampp, and viola !
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
