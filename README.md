@@ -8,6 +8,8 @@
 
 ![Alt text](https://bytebucket.org/shiken/crud/raw/201221a28eebd67dd58573d36e9f0e5698e7a438/screenshots%20crud/3.PNG?token=8001f4ad91055188cc75f5914f1feda9022719cd)
 
+![Alt text](https://bytebucket.org/shiken/crud/raw/201221a28eebd67dd58573d36e9f0e5698e7a438/screenshots%20crud/2.PNG?token=9a712d771d911fbca4d8805411e4324a2d4b02e2)
+
 
 #Instructions 
 
